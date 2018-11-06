@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/* CSS Document */
+#ReservationDiv{
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;	
+}
+.ReservationRows{
+	text-align: center;
+	
+}
+.reservationInput{
+	width:182.41px
+}
+h2, .h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+label{
+	text-align: right;
+	
+}
+fieldset {
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+    //margin-top: .5em;
+    //margin-bottom: .5em;
+    padding-top: .1em;
+}
+legend {
+    color: #b2191e;
+    font-weight: bold;
+    font-size: 160%;
+    margin-bottom: .5em;
+}
+p.introtext {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+#navText{
+	float:right;
+}
+.row .col-lg-4 .card.col-md-4.col-lg-12 {
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+}
+
+.moreinfo {
+    background-color: #D6396C;
+    padding: 8px;
+    border-radius: 10px;
+    background-image: url("../images/stockImage.jpg");
+    -webkit-box-shadow: 4px 4px 8px #000000;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+h2.moreinfo {color: #FFFFFF;
+font-size: 22px}
+
+p.moreinfo {
+	color: #FFFFFF;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.card-header {
+    background-color: #ffffff;
+}
+
+.bg-dark {
+  background-color: #40457E;
+}
+
+a.bg-dark:hover, a.bg-dark:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+  background-color: #1d2124 !important;
+}
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+    color: #F3CCD8;
+    background-color: #B32A53;
+    border-radius: 5px;
+}
+.navbar.navbar-expand-lg.bg-dark {
+    background-color: #000000;
+}
+
+#footer {
+	background-color: #40457E;
+	color: #FFFFFF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	width: 100%;
+	position:absolute;
+}
+/*
+#Location{
+	margin-bottom:500px;
+}
+*/
+.accordion {
+}
+.accordionheader {
+    color: #b2191e;
+    border-top-right-radius: 0px;
+}
+.topsection {
+    background-image: url("../images/stockImage.jpg");
+}
+.topheading {
+    color: #FFFFFF;
+}
+.heading2 {
+    color: #FFFFFF;
+}
+.row .col-lg-6 .card.text-center.col-md-4.col-lg-12 {
+    background-color: #none;
+}
+.row .col-lg-6 .card.text-center.col-md-4.col-lg-12.transparent {
+	background-color: none;
+}
+.bigpic {
+    background-image: url("../images/stockImage.jpg");
+    height: 240px;
+    top: 0px;
+    padding-top: 70px;
+}
+.NavLogo {
+    -webkit-box-shadow: 0px 0px #CF3265;
+    box-shadow: 0px 0px #CF3265;
+    background-color: #CF3463;
+    z-index: 2;
+}
+.Logo {
+    z-index: 10;
+    width: 400px;
+    height: 200px;
+    margin-top: -60px;
+    margin-left: -60px;
+    margin-right: -60px;
+    margin-bottom: -60px;
+    border: thick solid #40457E;
+}
+.row .col-lg-4 .rounded-circle.img-fluid.Logo {
+    width: 400px;
+    min-width: 400px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.col-lg-4.NavLogo .navbar.navbar-expand-lg #navbarSupportedContent1 {
+    color: #FFFFFF;
+}
+.navbar-nav.mr-auto .nav-item.active .nav-link {
+    color: #FFFFFF;
+    font-size: large;
+    text-transform: uppercase;
+}
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: #FFFFFF;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.row .col-lg-12.bigpic .row.navbar.pink {
+    background-color: #CF3463;
+}
+
+.row .col-lg-12.bigpic .row.navbar.centered {
+    position: relative;
+}
+.logorow {
+    display: block;
+    margin-top: 0px;
+}
+.mylogocentered {
+    margin: auto;
+    display: block;
+}
+
+.container .row .col-lg-12.bigpic.option3 {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+	background-color: #B0B2D7
+}
+#welcomeImg{
+	width: 100%;
+}
+#buttons{
+	float:right;
+	margin-right: 5em;
+	margin-top: 11em;
+}
+#About{
+	padding-top:200px;
+}
+#Home{
+	margin-top:126px;
+}
+#Menu{
+	padding-top:200px;
+}
+#Reservation{
+	padding-top:200px;
+}
+#Location{
+	padding-top:200px;
+	margin-bottom:200px;
+}
+.ReservationClassText {
+    text-align: right;
+    width:12rem;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
